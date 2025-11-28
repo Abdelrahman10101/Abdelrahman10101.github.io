@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdelrahman Hesham | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+        }
+        header {
+            padding: 40px;
+            text-align: center;
+            background: #111111;
+            border-bottom: 1px solid #222222;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        h2 {
+            color: #00d1b2;
+        }
+        section {
+            padding: 40px 10%;
+        }
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #141414;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #1f1f1f;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #00d1b2;
+        }
+        a {
+            color: #00d1b2;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #222222;
+            background: #111111;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abdelrahman Hesham</h1>
+        <p>Machine Learning Engineer • Deep Learning • Computer Vision • NLP • .NET Backend</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a senior AI and machine learning engineer passionate about building intelligent systems.
+            Experienced in deep learning, computer vision, NLP, data science, and full .NET backend development.
+            I love challenging projects involving advanced models, research papers, and real-world ML deployment.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">PyTorch / TensorFlow</div>
+            <div class="card">CNNs, Transformers</div>
+            <div class="card">Computer Vision</div>
+            <div class="card">NLP & LLM Fine-tuning</div>
+            <div class="card">Graph Neural Networks</div>
+            <div class="card">.NET Core / APIs</div>
+            <div class="card">Machine Learning Algorithms</div>
+            <div class="card">Data Engineering</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>CostManagementAPI (.NET)</h3>
+                <p>Role-based document management system with tagging, validation, and folder automation.</p>
+                <a href="#">GitHub Link</a>
+            </div>
+            <div class="card">
+                <h3>EfficientNet-B7 on CIFAR-10</h3>
+                <p>Fine-tuned EfficientNet model with transfer learning and best-class accuracy.</p>
+                <a href="#">GitHub Link</a>
+            </div>
+            <div class="card">
+                <h3>Perception Reader</h3>
+                <p>Kaggle competition creation: unseen test data, sensor fusion, CV + ML pipelines.</p>
+                <a href="#">GitHub Link</a>
+            </div>
+            <div class="card">
+                <h3>CNN Image Classifier</h3>
+                <p>First CNN project built with PyTorch using modern augmentation and training tricks.</p>
+                <a href="#">GitHub Link</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:AbdelRahman_Hesham@outlook.com">AbdelRahman_Hesham@outlook.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+        <p>Location: New Cairo</p>
+    </section>
+
+    <footer>
+        © 2025 Abdelrahman Hesham
+    </footer>
+</body>
+</html>
